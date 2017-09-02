@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title> black_spot </title>
+		<!-- Meta Tags -->
+		<meta charset="utf-8"/>
+		<!-- Stylesheets -->
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,900,900italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/style.css"/> 
+	</head>
+	<body>
+		
+		<header> 
+
+			<!-- logo text -->
+			<h1>Black Spot</h1>
+
+		</header>
+
+		<section class="game">
+
+			<div class="card_deck">
+				
+					<div class="card_One"></div>
+					<div class="card_Two"></div>
+					<div class="card_Three"></div>
+					<div class="card_Four"></div>
+
+		
+			</div>
+			<div class="one">
+			<p>Player 1: You now have 4 cards in your hand. <br> Player 1: What color is your first card?</p>
+			<button type="button" class="button1" id="Red"> Red </button>
+			<br>
+			<button type="button" class="button1" id="Black"> Black </button>
+			<p class="card_One_Reveal"></p></p>
+			</div>
+
+			<div class="two">
+			<p>Player 1: Is your second card higher or lower than your fist?</p>
+			<button type="button" class="button2" id="higher"> Higher </button>
+			<br>
+			<button type="button" class="button2" id="lower"> Lower </button>
+			<p class="card_Two_Reveal"></p></p>
+			</div>
+
+			<div class="three">
+			<p>Player 1: Is your third card's value in between or outside your first two cards?</p>
+			<button type="button" class="button3" id="outside"> Outside </button>
+			<br>
+			<button type="button" class="button3" id="inside"> Inside </button>
+			<p class="card_Three_Reveal"></p></p>
+			</div>
+				
+		</section>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+	</body>
+</html>
